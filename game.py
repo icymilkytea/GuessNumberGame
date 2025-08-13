@@ -1,11 +1,11 @@
 import random
-
+#Словарь сложностей
 difficulty_levels = {
     "ЛЕГКАЯ": {"min": 0, "max": 10, "mtries": 5},
     "СРЕДНЯЯ": {"min": 0, "max": 100, "mtries": 10},
     "СЛОЖНАЯ": {"min": 0, "max": 1000, "mtries": 15}
 }
-
+#Игровой цикл
 def play_game():
     #Выбор сложности
     while True:
@@ -26,20 +26,23 @@ def play_game():
     while tries < max_tries:
         try:
             if tries == 0:
+                #Первая попытка
                 user_guess = int(input("Компьютер загадал число, попробуй его отгадать:"))
             else:
+                #Остальные попытки
                 user_guess = int(input(f"Попытка {tries+1}/{max_tries}, попробуй его отгадать:"))
+        #Защита от плохого ввода
         except ValueError:
             print("Нужно ввести целое число!")
             continue
 
-        tries += 1
+        tries += 1 #Единое изменение счетчика попыток
 
-        #Блок победы и подсказок для попыток
+        #Блок победы
         if user_guess == num_to_guess:
             print(f"Число угадано! Ты выиграл. Угадал с попытки {tries}")
             break
-        else:
+        else: #Блок подсказок
             print(f"Число не угадано!")
             if user_guess > num_to_guess:
                 print(f"Число {user_guess} больше загаданного")
@@ -53,7 +56,7 @@ def play_game():
         return True
     else:
         return False
-
+#Перезапуск игры
 def ask_to_play_again():
     while True:
         again = input("Хотите сыграть еще раз? (да/нет)").lower()
@@ -63,6 +66,6 @@ def ask_to_play_again():
             return False
         else:
             print("Пожалуйста, введите 'да' или 'нет'.")
-
+#Запуск игры
 while play_game():
     pass
