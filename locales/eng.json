@@ -1,0 +1,15 @@
+{
+    "ask_difficulty": "Enter 'Easy', 'Medium', or 'Hard' to choose the game difficulty: ",
+    "no_difficulty": "This difficulty level does not exist",
+    "first_try": "The computer has chosen a number, try to guess it: ",
+    "next_try": "Attempt {tries}/{max_tries}, try to guess the number: ",
+    "duplicate_guess": "You have already entered this number!",
+    "out_of_range": "The number must be between {gen_n_from} and {gen_n_to}",
+    "not_integer": "You must enter an integer!",
+    "win": "Number guessed! You won. Guessed on attempt {tries}",
+    "greater": "Number not guessed! Your number {user_guess} is greater than the chosen number",
+    "less": "Number not guessed! Your number {user_guess} is less than the chosen number",
+    "lose": "Attempts are over. The chosen number was {number_to_guess}",
+    "play_again": "Do you want to play again? (yes/no): ",
+    "invalid_yes_no": "Please enter 'yes' or 'no'."
+}
