@@ -4,30 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02996618-8caa-4cbe-a1f1-7155c71b1e5b" name="Changes" comment="v 0.000002&#10;- added restart after lose/win" />
+    <list default="true" id="02996618-8caa-4cbe-a1f1-7155c71b1e5b" name="Changes" comment="v 0.000051&#10;- small refactoring&#10;- localization (ru, eng)">
+      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjectsGuessNumberGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjectsGuessNumberGame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "icymilkytea"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;icymilkytea&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/icymilkytea/GuessNumberGame.git",
-    "accountId": "16a8aa22-aa21-4796-8776-7590dc605118"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/icymilkytea/GuessNumberGame.git&quot;,
+    &quot;accountId&quot;: &quot;16a8aa22-aa21-4796-8776-7590dc605118&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="31FB0ePhRihREvMHOjUN9NAmjuC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,11 +48,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.game.executor": "Run",
+    "Python.guessing_game.executor": "Run",
+    "Python.gui.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/pmalk/PycharmProjectsGuessNumberGame"
+    "last_opened_file_path": "C:/Users/pmalk/PycharmProjectsGuessNumberGame",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,11 +87,66 @@
       <option name="project" value="LOCAL" />
       <updated>1755109916412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v 0.000003&#10;- added comments">
+      <option name="closed" value="true" />
+      <created>1755119924420</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755119924420</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v 0.000004&#10;- added LogicalErrors">
+      <option name="closed" value="true" />
+      <created>1755123623740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755123623740</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v 0.000004&#10;- added LogicalErrors">
+      <option name="closed" value="true" />
+      <created>1755123648556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755123648556</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v 0.000041&#10;- small enhancements">
+      <option name="closed" value="true" />
+      <created>1755157854527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755157854527</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v 0.000041&#10;- small refactoring&#10;- localization (ru, eng)">
+      <option name="closed" value="true" />
+      <created>1755174265269</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755174265269</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v 0.000002&#10;- added restart after lose/win" />
-    <option name="LAST_COMMIT_MESSAGE" value="v 0.000002&#10;- added restart after lose/win" />
+    <MESSAGE value="v 0.000003&#10;- added comments" />
+    <MESSAGE value="v 0.000004&#10;- added LogicalErrors" />
+    <MESSAGE value="v 0.000041&#10;- small enhancements" />
+    <MESSAGE value="v 0.000041&#10;- small refactoring&#10;- localization (ru, eng)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 0.000041&#10;- small refactoring&#10;- localization (ru, eng)" />
   </component>
 </project>
